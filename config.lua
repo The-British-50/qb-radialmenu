@@ -582,6 +582,13 @@ Config.JobInteractions = {
             event = 'qb-tunerchip:client:TuneStatus',
             shouldClose = true
         }, {
+            id = 'checkvin',
+            title = 'Check VIN',
+            icon = 'search',
+            type = 'client',
+            event = 'imdost:client:checkvin',
+            shouldClose = true
+        }, {
             id = 'resethouse',
             title = 'Reset house lock',
             icon = 'key',
